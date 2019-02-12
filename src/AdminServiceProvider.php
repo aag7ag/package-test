@@ -23,6 +23,6 @@ class AdminServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        dd('hello world!!');
+        echo 'hello world!!';
     }
 }
