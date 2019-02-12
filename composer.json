@@ -27,7 +27,7 @@
     },
     "scripts": {
         "post-package-install": [
-            "yarn add vuetify"
+            "@yarn add vuetify"
         ]
     }
 }
