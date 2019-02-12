@@ -30,6 +30,11 @@
             "php artisan clear-compiled",
             "php artisan optimize",
             "npm install"
+        ],
+        "post-update-cmd": [
+            "php artisan clear-compiled",
+            "php artisan optimize",
+            "npm install"
         ]
     }
 }
