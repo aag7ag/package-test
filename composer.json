@@ -1,0 +1,28 @@
+{
+    "name": "indat/laravel-admin",
+    "description": "cms para laravel",
+    "type": "library",
+    "require": {
+        "santigarcor/laratrust": "5.1.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "arturo alvarez",
+            "email": "luis.alvarez@indatcom.mx"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Admin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Admin\\AdminServiceProvider"
+            ]
+        }
+    }
+}
