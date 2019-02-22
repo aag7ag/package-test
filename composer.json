@@ -1,6 +1,6 @@
 {
     "name": "indat/laravel-admin",
-    "description": "cms para laravel",
+    "description": "Admin para laravel",
     "type": "library",
     "require": {
         "php": "^7.1",
@@ -22,13 +22,13 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Admin\\": "src/"
+            "Indat\\Admin\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Admin\\AdminServiceProvider"
+                "Indat\\Admin\\AdminServiceProvider"
             ]
         }
     }

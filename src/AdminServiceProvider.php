@@ -1,6 +1,6 @@
 <?php
 
-namespace Admin;
+namespace Indat\Admin;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -23,6 +23,7 @@ class AdminServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        echo 'hello world!!';
+        $this->loadRoutesFrom(__DIR__ . '/routes/admin.php');
+        $this->loadViewsFrom(__DIR__ . '/Resources/views', 'admin');
     }
 }
